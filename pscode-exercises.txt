@@ -1,0 +1,41 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+IF num MOD 2 == 0
+    PRINT num is even
+ELSE
+    PRINT num is odd
+ENDIF
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+1.  Initialize an empty list, numbers
+2.  FOR i from 1 to 5
+3.      Prompt the user to enter a number
+4.      Read the input number
+5.      Add the input number to the list, numbers
+6.  ENDFOR
+7.  SET total to the sum of the numbers in the list
+8.  SET average to total divided by 5
+9.  SET min_number to the smallest number in the list, numbers
+10. SET max_number to the largest number in the list, numbers
+11. PRINT "The average of the five numbers is: ", average
+12. PRINT "The smallest number entered is: ", min_number
+13. PRINT "The largest number entered is: ", max_number
